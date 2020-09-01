@@ -9,6 +9,8 @@ usage:
 
 # Project Design
 In this project we have a simple server and client interface using sockets. The client provides a message to the server and the server sends that message back to the client. 
+
+<image src="https://raw.githubusercontent.com/sreeganeshji/socket-echo-client-server/master/Illustrations/echo.png" height=150>
  
 # Trade offs considered 
 Since the message exchanged between the client and server is small in length, a cumulative buffer implementation was not considered which would allow for transfer of larger files. 
