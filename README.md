@@ -1,2 +1,2 @@
 # socket-echo-client-server
-A simple experiment with sockets in C.
+Establishing connection between client and a server with sockets in C.
